@@ -1,2 +1,4 @@
 /**/Functions/*.exe
 /**/Loop/*.exe
+*.exe
+debug.log
