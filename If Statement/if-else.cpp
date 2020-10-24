@@ -4,21 +4,21 @@ using namespace std;
 int main()
 {
     // Deklarasi tipe data variabel integer
-    int angka;
+    int absen;
 
     // Proses Input
-    cout << "Masukkan sebuah angka :";
+    cout << "Masukkan nomor absen anda :";
     // Menyimpan data ke variabel
-    cin >> angka;
+    cin >> absen;
 
     // Proses output
-    if (angka > 15)
+    if (absen > 5 || absen < 10)
     {
-        cout << "Kamu Menang";
+        cout << "dipanggil dosen";
     }
     else
     {
-        cout << "Aku Menang";
+        cout << "ga dipanggil";
     }
 
     return 0;
