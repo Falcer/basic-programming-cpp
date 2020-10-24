@@ -17,6 +17,10 @@ int main(){
 	//Dynamic Value
 	for(int i = 0; i < arrlen;i++){
 		cout<<"Masukkan value dari array b["<<i<<"]: ";
+		if(i == 3){
+			b[i] == 100;
+			continue;
+		}
 		cin>>b[i];
 	}
 
@@ -30,5 +34,6 @@ int main(){
 	for(int a = 0; a < len; a++){
 		cout<<"Value dari Array ke- "<<a<<": "<<c[a]<<endl;
 	}
+	
 	return 0;
 }
