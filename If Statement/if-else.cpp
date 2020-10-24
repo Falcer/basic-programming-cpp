@@ -12,7 +12,7 @@ int main()
     cin >> absen;
 
     // Proses output
-    if (absen > 5 || absen < 10)
+    if (absen > 5 && absen < 10)
     {
         cout << "dipanggil dosen";
     }
