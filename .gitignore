@@ -2,3 +2,4 @@
 /**/Loop/*.exe
 *.exe
 debug.log
+/.vscode
